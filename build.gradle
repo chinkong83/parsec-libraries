@@ -12,7 +12,7 @@ plugins {
 }
 
 release {
-    branch = ''
+    requireBranch = ''
     failOnUnversionedFiles = false
     failOnCommitNeeded = false
     tagTemplate = '$name-$version'
